@@ -1,0 +1,46 @@
+Welcome!  I made this Bot after a joke that was started in LinkHeroOfTwitch's Twitch chat.  We decided that
+speedrunners needed a coach that would "encourage" them to do better.  Thus CoachBot was born.
+
+Using CoachBot is pretty simple:
+
+1) If you are running this on Windows then you need to install python 2.7 (Macs already have it by default) Download it from: https://www.python.org/downloads/
+(I'm not sure if this works with python 3, but it probably does) 
+
+2) The zip file for CoachBot contains a few files:
+CoachBot.py - This is the actual bot program
+Config.py - This is where the stream name goes
+Various text files that contain the things CoachBot can say
+
+3) In Config.py there is a line that looks like:
+CHANNEL = "streamname"
+
+Replace streamname (but keep the quotes) with whatever your streamname is.
+
+There is also:
+ANTIKAPPA = “no”
+
+If you want CoachBot to scold people when they use Kappa then set this to yes.
+
+4) Double click on CoachBot.py and a command prompt will open and hang out there if the bot started correctly.  In your chat you will see that CoachBot has announced itself.
+
+5) Enjoy
+
+CoachBot commands:
+!coach - give encouragement to the runner
+!romance - give romance advice
+!congrats - give praise to the runner when he/she/it does well
+
+Add sentences, words, sad faces, whatever into the files associated with each command to expand CoachBots repertoire:
+- Coach_Responses.txt
+- Romance.txt
+- Congrats.txt
+
+People in your chat can add new phrases also by using:
+!addcoach
+!addromance
+!addcongrats
+
+
+If you have any questions or issues, feel free to send me a message on Twitch.
+<3
+EndlessTundra
