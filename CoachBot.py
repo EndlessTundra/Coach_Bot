@@ -124,3 +124,7 @@ while True:
                 f.write(new_romance + "\r\n")
                 f.close()
                 sendMessage(s, "CoachBot has learned more about love!")
+
+            if "!COMMAND_NAME" in message:
+                random_COMMAND_NAME = random.choice(open("FILENAME").readlines())
+                sendMessage(s, random_COMMAND_NAME)
